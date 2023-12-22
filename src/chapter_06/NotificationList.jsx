@@ -21,7 +21,7 @@ var timer;
 class NotificationList extends React.Component {
   constructor(props) {
     super(props);
-    console.log("지점1");
+    
     this.state = {
       notifications: [],
     };
@@ -36,12 +36,12 @@ class NotificationList extends React.Component {
         this.setState({
           notifications: notifications,
         });
-        console.log("지점2");
+    
       } else {
         this.setState({
           notifications: [],
         });
-        console.log("지점1");
+        
         clearInterval(timer);
       }
     }, 1000);
