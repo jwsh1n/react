@@ -30,5 +30,3 @@ function AttendanceBook(props) {
 }
 
 export default AttendanceBook;
-
-//  냠
