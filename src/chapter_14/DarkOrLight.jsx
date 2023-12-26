@@ -12,7 +12,7 @@ function DarkOrLight(props) {
       setTheme("light");
     }
   },[theme]);
-
+ 
   return(
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <MainContent />
